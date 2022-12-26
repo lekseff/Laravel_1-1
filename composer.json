@@ -1,0 +1,22 @@
+{
+    "name": "admin/1",
+    "description": "composer init",
+    "autoload": {
+        "psr-4": {
+            "Admin\\1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksey Zayachnikov",
+            "email": "lekseff@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/lekseff/Laravel_1-1"
+        }
+    ],
+    "require": {}
+}
